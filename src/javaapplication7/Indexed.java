@@ -5,7 +5,7 @@
  */
 package javaapplication7;
 
-import java.nio.file.Files;
+
 import java.util.Scanner;
 
 /**
@@ -13,6 +13,7 @@ import java.util.Scanner;
  * @author mariam elbeheiry
  */
 public class Indexed {
+    void indexedalgo(){
             
    System. out .println("Enter the number of blocks in your disks");
    Scanner input= new Scanner (System.in);
@@ -33,4 +34,5 @@ public class Indexed {
    
    
             
+}
 }
