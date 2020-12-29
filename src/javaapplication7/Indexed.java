@@ -12,5 +12,6 @@ package javaapplication7;
 public class Indexed {
             
     int memory;
-    
+    int memoryblocks[];
+            
 }
