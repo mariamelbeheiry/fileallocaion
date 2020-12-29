@@ -20,7 +20,7 @@ public class Indexed {
    
    int memory= input.nextInt(); 
    System.out.println("Enter number of files");
-   int Files=input.nextInt()
+   int Files=input.nextInt();
    String Filename[]=new String[Files];
    int FileBlocks[]=new int[Files];
    for(int i=0;i<Files;i++)
