@@ -36,6 +36,31 @@ public class Indexed {
    Random rand=new Random();
    int index;
    System.out.println("\n\nfileName\tIndexed\tStart\tEnd");
+   for(int j=0;j<FileBlocks[j];j++)
+   {
+       rand=new Random(memory);
+       index=rand.nextInt(memory);
+       while(true){
+           if(MemoryBlocks[index]==null){
+               MemoryBlocks[index]=Filename[j];
+               if(j==0){
+                   System.out.println(index+"\t");
+                   
+               }
+               else if (j==1){
+                   
+                    System.out.println(index+"\t");
+               }
+               else if(j==FileBlocks[j]-1){
+                    System.out.println(index+"\t");
+               }
+               break;
+           }
+           else{
+               index=rand.nextInt(memory);
+           }
+       }
+   }
    
    
    
