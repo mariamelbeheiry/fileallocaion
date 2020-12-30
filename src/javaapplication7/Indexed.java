@@ -6,6 +6,7 @@
 package javaapplication7;
 
 
+import java.util.Random;
 import java.util.Scanner;
 
 /**
@@ -30,6 +31,12 @@ public class Indexed {
        System.out.println("Enter The number of the Blocks in"+Filename[i]);
        FileBlocks[i]=input.nextInt();
    }
+        
+   String MemoryBlocks[]=new String[memory];
+   Random rand=new Random();
+   int index;
+   System.out.println("\n\nfileName\tIndexed\tStart\tEnd");
+   
    
    
    
